@@ -6,10 +6,12 @@ import HookCounterTwo from './components/HookCounterTwo'
 import HookCounterThree from './components/HookCounterThree'
 import HookCounterFour from './components/HookCounterFour'
 import UseEffectCounterOne from './components/UseEffectCounterOne'
+import HookMouse from './components/HookMouse'
 
 function App() {
   return (
     <div className="App">
+      <HookMouse />
       <UseEffectCounterOne />
       <HookCounterFour />
       <HookCounterThree />
